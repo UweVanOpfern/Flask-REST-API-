@@ -23,7 +23,7 @@ class Store(Resource):
         store = StoreModel(name)
 
         try:
-            store.save_to_db()
+            store.save_to_db() # Save into database
 
         except 'Exception':
 
